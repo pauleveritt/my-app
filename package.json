@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts-ts": "1.0.6"
+    "react-scripts-ts": "1.0.6",
+    "wallaby-webpack": "0.0.32"
   },
   "dependencies": {
     "@types/jest": "^16.0.4",
