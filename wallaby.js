@@ -1,5 +1,3 @@
-const wallabyWebpack = require('wallaby-webpack');
-const webpackPostprocessor = wallabyWebpack({});
 const path = require('path');
 
 module.exports = function (wallaby) {
@@ -26,8 +24,6 @@ module.exports = function (wallaby) {
             type: 'node',
             runner: 'node'
         },
-
-        postprocessor: webpackPostprocessor,
 
         setup: (wallaby) => {
             wallaby.testFramework.configure({
